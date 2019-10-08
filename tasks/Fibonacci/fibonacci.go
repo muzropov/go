@@ -23,6 +23,6 @@ func fibonacci2(x, y, n int) int {
 }
 
 func main() {
-	fmt.Println(fibonacci1(10))
-	fmt.Println(fibonacci2(1, 1, 10))
+	fmt.Println(fibonacci1(10)) // 55
+	fmt.Println(fibonacci2(1, 2, 10)) // 89
 }
