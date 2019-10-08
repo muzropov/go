@@ -11,7 +11,7 @@ func fibonacci1(n int) int {
 	}
 }
 
-//fibonacci which starting x, y
+//fibonacci which starting with x, y
 func fibonacci2(x, y, n int) int {
 	if n == 1 {
 		return x
@@ -24,5 +24,5 @@ func fibonacci2(x, y, n int) int {
 
 func main() {
 	fmt.Println(fibonacci1(10))
-	fmt.Println(fibonacci2(1,1,10))
+	fmt.Println(fibonacci2(1, 1, 10))
 }
